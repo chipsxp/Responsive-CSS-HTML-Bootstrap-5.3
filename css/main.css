@@ -23,9 +23,16 @@ body {
 img {
 	display: block;
 	width: 100%;
-	
+	border-radius: 5%;
 	height: auto; 
 	margin: 0 0 10px 0;
+}
+
+.card-image {
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	overflow: hidden;
 }
 
 /* Section Inner */
@@ -49,12 +56,13 @@ div.nav {
 div.nav ul {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 div.nav ul li {
 	list-style: none;
 	float: left;
-	font-size: 93%;
+	font-size: 1.25rem;
 }
 
 div.nav ul li a:link,
@@ -63,7 +71,12 @@ div.nav ul li a:visited {
 	padding: 10px 15px;
 	text-decoration: none;
 	color: #000;
-	border-right: 1px solid #bababa;
+	border-right: 1px solid #7d7c7c;
+}
+
+div.nav ul li a:hover {
+	background-color: #e0e0e0;
+	color: #333;
 }
 
 /* Body Content */
@@ -90,14 +103,14 @@ div.one-third-last {
 
 /* Main Column */
 div.main {
-	width: 65%;
+	width: 62%;
 	float: left;
 	margin-right: 5%;
 }
 
 /* Side Column */
 div.side {
-	width: 30%;
+	width: 33%;
 	float: left;
 }
 
